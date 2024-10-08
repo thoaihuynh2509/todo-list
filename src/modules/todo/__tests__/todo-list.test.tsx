@@ -1,11 +1,13 @@
 import React from 'react';
-import { render, screen, waitFor } from '@testing-library/react';
+import { render, screen, waitFor, configure } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import '@testing-library/jest-dom';
 import { Provider } from 'react-redux';
 import { configureStore } from '@reduxjs/toolkit';
 import TodoList from '../todo-list';
 import { TodoStatus, TodoTab } from '../../../types/todo';
+
+configure({ asyncUtilTimeout: 400 });
 
 // Mock the API hooks
 const mockFetchTodosQuery = jest.fn();

@@ -17,3 +17,11 @@ This is a React project bootstrapped with Create React App, using TypeScript for
 
 3. **Run the development server:**
    yarn start
+
+4. **Run test:**
+   yarn test
+
+## Additional Feature
+
+- Add form validation to prevent empty tasks from being added.
+- Write unit tests for components using Jest or React Testing Library.

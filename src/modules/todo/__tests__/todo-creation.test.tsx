@@ -1,9 +1,11 @@
 import React from 'react';
-import { render, screen, fireEvent } from '@testing-library/react';
+import { render, screen, fireEvent, configure } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import { Provider } from 'react-redux';
 import TodoCreation from '../todo-creation';
 import store from '../../../store';
+
+configure({ asyncUtilTimeout: 400 });
 
 describe('TodoCreation Component', () => {
   test('renders input field', () => {
