@@ -1,0 +1,60 @@
+{
+  "tasks": [
+    {
+      "content": "Learn React",
+      "status": "COMPLETED",
+      "created_date": "2023-10-01T12:34:56Z",
+      "user_id": "firstUser",
+      "id": "1"
+    },
+    {
+      "content": "Write tests",
+      "status": "INCOMPLETE",
+      "created_date": "2023-10-02T08:45:23Z",
+      "user_id": "firstUser",
+      "id": "2"
+    },
+    {
+      "content": "Review pull requests",
+      "status": "COMPLETED",
+      "created_date": "2023-10-03T14:12:00Z",
+      "user_id": "secondUser",
+      "id": "3"
+    },
+    {
+      "content": "Update documentation",
+      "status": "INCOMPLETE",
+      "created_date": "2023-10-04T09:30:45Z",
+      "user_id": "secondUser",
+      "id": "4"
+    },
+    {
+      "content": "Plan team meeting",
+      "status": "INCOMPLETE",
+      "created_date": "2023-10-05T10:50:30Z",
+      "user_id": "thirdUser",
+      "id": "5"
+    },
+    {
+      "content": "Refactor codebase",
+      "status": "INCOMPLETE",
+      "created_date": "2023-10-06T11:00:00Z",
+      "user_id": "thirdUser",
+      "id": "6"
+    },
+    {
+      "content": "Optimize database queries",
+      "status": "COMPLETED",
+      "created_date": "2023-10-07T15:20:10Z",
+      "user_id": "firstUser",
+      "id": "7"
+    },
+    {
+      "content": "zx",
+      "created_date": "2024-10-07T16:49:17.918Z",
+      "status": "COMPLETED",
+      "user_id": "firstUser",
+      "id": "tJSwa2NQ7"
+    }
+  ]
+}

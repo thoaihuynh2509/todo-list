@@ -1,0 +1,110 @@
+.todo-container {
+  font-size: 1.2rem;
+
+  &__box {
+    width: 40rem;
+    height: 100%;
+    padding: 2rem 1.5rem;
+    margin: 0 auto;
+    background: white;
+    box-shadow: 3px 3px 10px #eee;
+  }
+}
+
+.todo-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  input[type='checkbox'] {
+    display: block;
+    width: 50px;
+  }
+
+  &__tabs {
+    padding-inline-start: 0;
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    margin-left: -4rem;
+  }
+
+  &__tab {
+    font-size: 1.1rem;
+    cursor: pointer;
+  }
+}
+
+.todo-action {
+  &__btn {
+    padding: 0.4rem 0.75rem;
+    font-size: 1.4rem;
+    background: transparent;
+    border: 3px solid #333;
+    cursor: pointer;
+    transform: 2s ease;
+
+    &--focus {
+      background-color: red;
+    }
+  }
+}
+
+.todo-creation {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+
+  &__input {
+    width: 100%;
+    padding: 0.3rem 0.5rem;
+    border: none;
+    border: 3px solid #333;
+  }
+}
+
+.todo-list {
+  padding: 0;
+
+  &__empty {
+    padding: 150px;
+    border: 1px solid #000;
+    background-color: antiquewhite;
+    text-align: center;
+  }
+
+  &__item {
+    margin-bottom: 0;
+    position: relative;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #000;
+    padding: 10px 15px 10px 0;
+
+    &__section {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+  }
+
+  &__delete {
+    font-weight: 200;
+    cursor: pointer;
+  }
+
+  input[type='checkbox'] {
+    display: block;
+    width: 50px;
+    min-width: 50px;
+  }
+
+  input[type='checkbox']:checked + span {
+    color: rgb(141, 137, 137);
+    text-decoration: line-through;
+  }
+}
